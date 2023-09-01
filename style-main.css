@@ -253,3 +253,67 @@
   margin-right: 15px;
   font-size: 22px;
 }
+
+/* contact css start */
+.contact-bg {
+  background-image: url(images/contactbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-overlay {
+  position: relative;
+}
+
+.contact-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2c3e4fd9 !important;
+}
+
+.contact-bg .container {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+.main-contact {
+  color: #fff;
+  border-left-style: solid;
+  border-left-width: 9px;
+  z-index: 1;
+  position: relative;
+  padding-left: 16px;
+  margin-top: 108px;
+  line-height: 80px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 47px;
+  border-color: #e54d42 !important;
+}
+
+.contact-icon > i {
+  font-size: 35px;
+}
+
+.contact-paragraph {
+  background: #f7f6f2;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  min-height: 250px;
+  margin-bottom: 20px;
+}
+
+.contact-paragraph > p {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.contact-ul {
+  padding-left: 0px;
+}
