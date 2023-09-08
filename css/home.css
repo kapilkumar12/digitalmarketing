@@ -147,3 +147,11 @@
   color: #e54d42;
   font-size: 30px;
 }
+
+.counters {
+  border: 1px solid red;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 20px 0px;
+}

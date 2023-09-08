@@ -168,7 +168,7 @@ include "header.php"
         </div>
       </div>
       <div class="col-md-6 accordian-right-section">
-        <h3 class="home-headings mt-3">WHY CHOOSE US</h3>
+        <h2 class="home-headings mt-3">WHY CHOOSE US</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque iure
           tempore nam quibusdam illo ex reprehenderit, dicta quia, iste, quis
@@ -272,6 +272,61 @@ include "header.php"
     </div>
   </div>
 </div>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <h2 class="home-headings">we are creative agency</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia odio,
+        reprehenderit odit repellendus earum, quo eius neque, iure maxime sint
+        nihil. Alias aperiam maxime in totam itaque iure nesciunt officia?
+      </p>
+
+      <div class="col-md-3 col-sm-6 text-center">
+        <p data-target="307" class="count counters">0</p>
+        <p>SATISFIED CLIENTS</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+        <p data-target="95" class="count counters">0</p>
+        <p>COMPANY MEMBERS</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+        <p data-target="55" class="count counters">0</p>
+        <p>AWWARDS WIN</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+        <p data-target="16" class="count counters">0</p>
+        <p>YEARS EXPIRIENCE</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const counters = document.querySelectorAll(".count");
+  const speed = 200;
+
+  counters.forEach((counter) => {
+    const animate = () => {
+      const count = +counter.getAttribute("data-target");
+      const data = +counter.innerText;
+
+      const time = count / speed;
+      if (data < count) {
+        counter.innerText = Math.ceil(data + time);
+        setTimeout(animate, 1);
+      } else {
+        counter.innerText = count;
+      }
+    };
+
+    animate();
+  });
+</script>
 
 <?php
 

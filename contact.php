@@ -65,7 +65,7 @@ include "header.php"
 
         <div class="row">
             <div class="col-md-6">
-                <form action="sendEmail.php" method="POST">
+                <form id="contactForm" action="https://formspree.io/f/myyqjvkk" method="POST">
 
 
 
@@ -89,24 +89,31 @@ include "header.php"
                             aria-describedby="mobile" name="mobile" placeholder="Enter your mobile no" required>
 
                     </div>
+
+
+
                     <div class="mb-3">
                         <label for="select" class="form-label contact-form-label">What are you interested
                             in?<span>*</span></label>
-                        <select class="form-select contact-form-select" aria-label="Default select example">
+                        <select class="form-select contact-form-select" aria-label="Default select example"
+                            name="Interested">
                             <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option>Search Engine Optimization (SEO)</option>
+                            <option>Pay Per Click (PPC)</option>
+                            <option>Social Media Marketing</option>
+                            <option>Social Media Optimization</option>
+                            <option>Web Development</option>
+                            <option>Content Writing</option>
                         </select>
                     </div>
-
+                    <input name="subject" type="hidden" value="New submission from {{ email }}" />
 
                     <div class="mb-3">
                         <label for="message" class="form-label contact-form-label">Message<span>*</span></label>
                         <textarea type="text" class="form-control contact-form-control" id="message"
                             aria-describedby="message" name="message" rows="5" placeholder="message"></textarea>
 
-
+                        <div class="g-recaptcha" data-sitekey="6Ldi7wsoAAAAALV6rztXXK_tTigb7OCEuXpMaK8m"></div>
                         <div class="contact-btan">
                             <button class="button-62" role="button">Submit</button>
                         </div>
@@ -134,6 +141,29 @@ include "header.php"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<script>
+setTimeout(() => {
+    window.onbeforeunload = () => {
+        for (const form of document.getElementsByTagName('form')) {
+            form.reset();
+        }
+    }
+
+}, 1000);
+
+
+window.onload = function() {
+    var el = document.getElementById('g-recaptcha-response');
+    if (el) {
+        el.setAttribute('required', 'required');
+    }
+
+
+}
+</script>
 <?php
 
 include "footer.php"

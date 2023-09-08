@@ -393,3 +393,8 @@
 .contact-form-label > span {
   color: #fa1010;
 }
+
+.g-recaptcha {
+  margin: 10px 0px;
+  border-radius: 5px;
+}
