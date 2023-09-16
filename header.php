@@ -15,7 +15,7 @@
     <script src="
 //cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js
 "></script>
-
+    <script src="main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,8 +26,36 @@
 
 
 <body>
+
+    <div class="conatiner-fluid bg-dark">
+        <div class="sub-header">
+            <div class="header-contact-details">
+                <a href="tel:+01 1234567890" class="footer-pragraph-color"><i class="fa-solid fa-phone-volume"></i> +01
+                    1234567890</a>
+                <a href="mailto: mail@domain.com" class="footer-pragraph-color"><i class="fa-regular fa-envelope"></i>
+                    mail@domain.com</a>
+            </div>
+            <div>
+                <ul class="nav footer-social-links justify-content-center just-center">
+                    <li class="facebook">
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="insta">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li class="linkedin">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid custom-container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark new-nav">
+        <nav class="navbar navbar-expand-lg navbar-dark  new-nav">
             <div class="container-fluid custom-conatiner">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,7 +66,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav nav-content-right me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.php">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.php"><i
+                                    class="fa-solid fa-house"></i></a>
                         </li>
 
 
@@ -49,12 +78,12 @@
 
 
                                 <ul>
-                                    <li><a href="" class="dropdown-item">Search Engine Optimization (SEO)</a></li>
-                                    <li><a href="" class="dropdown-item">Pay Per Click (PPC)</a></li>
-                                    <li><a href="" class="dropdown-item">Social Media Marketing</a></li>
-                                    <li><a href="" class="dropdown-item">Social Media Optimization</a></li>
                                     <li><a href="" class="dropdown-item">Web Development</a></li>
+                                    <li><a href="" class="dropdown-item">Search Engine Optimization (SEO)</a></li>
+                                    <li><a href="" class="dropdown-item">Branding</a></li>
+                                    <li><a href="" class="dropdown-item">Graphic design</a></li>
                                     <li><a href="" class="dropdown-item">Content Writing</a></li>
+                                    <li><a href="" class="dropdown-item">Social Media Management</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -67,6 +96,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact Us</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+
                         <li><a href="" class="btn btn-primary py-2 px-4 ms-3">Get In Touch</a></li>
                     </ul>
                 </div>

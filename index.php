@@ -6,7 +6,7 @@ include "header.php"
 ?>
 
 <div
-  class="fables-header fables-after-overlay overlay-lighter index-traingle bg-rules"
+  class="fables-header digital-after-overlay overlay-lighter index-traingle bg-rules"
   style="background-image: url(./images/index-background.jpg)"
 >
   <div class="container">
@@ -32,8 +32,9 @@ include "header.php"
         <p>
           The public face of your internet presence is your website. Our team of
           web developers specializes in building enticing, user-friendly
-          websites that not only <a href="">Read more...</a>
+          websites that not only
         </p>
+        <a class="btn home-read-more" href="">Read more</a>
       </div>
     </div>
 
@@ -44,8 +45,9 @@ include "header.php"
         <p>
           Visibility is crucial in the digital world. Our all-inclusive SEO
           services are expertly crafted to improve your online visibility and
-          raise search engine rankings. We make <a href="">Read more...</a>
+          raise search engine rankings. We make
         </p>
+        <a class="btn home-read-more" href="">Read more</a>
       </div>
     </div>
 
@@ -56,8 +58,9 @@ include "header.php"
         <p>
           Your brand is an extension of your identity, and we recognize its
           importance. Together with you, our branding specialists develop a
-          distinctive brand image that <a href="">Read more..</a>
+          distinctive brand image that
         </p>
+        <a class="btn home-read-more" href="">Read more</a>
       </div>
     </div>
 
@@ -68,8 +71,9 @@ include "header.php"
         <p>
           In today's digital environment, visual communication is crucial. Your
           viewers will remember the engaging graphics created by our talented
-          graphic designers. <a href="">Read more...</a>
+          graphic designers.
         </p>
+        <a class="btn home-read-more" href="">Read more</a>
       </div>
     </div>
 
@@ -80,8 +84,9 @@ include "header.php"
         <p>
           Any effective digital marketing approach is powered by content. In
           addition to attracting organic traffic, the content that our team of
-          skilled writers produces <a href="">Read more...</a>
+          skilled writers produces
         </p>
+        <a class="btn home-read-more" href="">Read more</a>
       </div>
     </div>
 
@@ -92,8 +97,9 @@ include "header.php"
         <p>
           Building a strong presence is essential in a world where social media
           dominates. Our social media specialists create and put into practice
-          successful tactics to raise <a href="">Read more...</a>
+          successful tactics to raise
         </p>
+        <a class="btn home-read-more" href="">Read more</a>
       </div>
     </div>
   </div>
@@ -676,7 +682,7 @@ include "header.php"
       </div>
 
       <div class="col-md-4">
-        <a href="" class="px-5 py-2 home-contact-btan">Contact us</a>
+        <a href="contact.php" class="px-5 py-2 home-contact-btan">Contact us</a>
       </div>
     </div>
   </div>

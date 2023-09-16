@@ -145,6 +145,23 @@
   font-size: 20px;
 }
 
+.home-service-section p {
+  text-align: left;
+  height: 75px;
+  overflow: hidden;
+}
+
+.home-read-more {
+  background-color: #e54d42 !important;
+  transition: all ease-in-out 0.3s;
+  color: #fff !important;
+  border-radius: 30px !important;
+}
+
+.home-read-more:hover {
+  background-color: #438a8b !important;
+}
+
 .home-accordian {
   background-image: url(../images/contactbg.jpg);
   background-repeat: no-repeat;
@@ -303,6 +320,10 @@
   text-decoration: none;
 }
 
+.home-contact-btan:hover {
+  background-color: #438a8b !important;
+}
+
 .home-contact-row {
   z-index: 9;
   position: relative;
@@ -414,8 +435,13 @@
   transition: all ease-in-out 0.3s;
   color: #fff !important;
 }
+
 .digital-btn-rounded {
   border-radius: 30px !important;
+}
+
+.digital-second-background-color:hover {
+  background-color: #438a8b !important;
 }
 
 .digital-table-arrow i {
