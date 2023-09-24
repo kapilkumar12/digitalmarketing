@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="css/home.css" />
 
 <?php
-
+$title= 'Digital Marketing Servive Company';
+ $description = 'Digital Marketing Servive Company';
 include "header.php"
 ?>
 
@@ -27,7 +28,7 @@ include "header.php"
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
       <div class="home-service-section">
-        <img src="images/programming.png" alt="web development" />
+        <img src="images/web-development.webp" alt="web development" />
         <h3>Web Development</h3>
         <p>
           The public face of your internet presence is your website. Our team of
@@ -40,7 +41,7 @@ include "header.php"
 
     <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
       <div class="home-service-section">
-        <img src="images/seo.png" alt="search engine optimization" />
+        <img src="images/home-seo.webp" alt="search engine optimization" />
         <h3>Search Engine Optimization (SEO)</h3>
         <p>
           Visibility is crucial in the digital world. Our all-inclusive SEO
@@ -53,7 +54,7 @@ include "header.php"
 
     <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
       <div class="home-service-section">
-        <img src="images/pay-per-click.png" alt="Branding" />
+        <img src="images/home-branding.webp" alt="Branding" />
         <h3>Branding</h3>
         <p>
           Your brand is an extension of your identity, and we recognize its
@@ -79,7 +80,10 @@ include "header.php"
 
     <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
       <div class="home-service-section">
-        <img src="images/social-media.png" alt="search engine optimization" />
+        <img
+          src="images/hcontant-writing.webp"
+          alt="search engine optimization"
+        />
         <h3>Content Writing</h3>
         <p>
           Any effective digital marketing approach is powered by content. In
@@ -92,7 +96,7 @@ include "header.php"
 
     <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
       <div class="home-service-section">
-        <img src="images/blogger.png" alt="content writing" />
+        <img src="images/home-social.webp" alt="content writing" />
         <h3>Social Media Management</h3>
         <p>
           Building a strong presence is essential in a world where social media
@@ -435,7 +439,7 @@ include "header.php"
 <div class="container-fluid home-pricing-container home-accordian-overlay py-5">
   <div class="container">
     <div class="row home-pricing">
-      <div class="home-h2 text-center mb-3">
+      <div class="home-h2 text-center mb-3 home-pricing-heading">
         <h2 class="home-headings text-center">Our Pricing</h2>
       </div>
 
@@ -590,7 +594,9 @@ include "header.php"
 
 <div class="container">
   <div class="row">
-    <h2 class="text-center">Latest Works</h2>
+    <div class="home-h2 text-center mb-3">
+      <h2 class="home-headings text-center">Latest Works</h2>
+    </div>
     <p class="text-center">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos reiciendis
       cum aliquid quam, consequatur. quisquam consectetur culpa commodi maxime
@@ -683,6 +689,185 @@ include "header.php"
 
       <div class="col-md-4">
         <a href="contact.php" class="px-5 py-2 home-contact-btan">Contact us</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="home-h2 text-center mt-5 mb-5">
+      <h2 class="home-headings text-center">Latest News</h2>
+    </div>
+
+    <div class="col-md-4">
+      <div class="blog-card">
+        <div class="accordian-left-image home-blog-img">
+          <img src="images/cat-larg4.jpg" alt="" />
+        </div>
+        <h3>Getting to Another Level of Design</h3>
+        <small>09 November, 2018</small>
+        <p>
+          When you need your company to have a new website or if you venture on
+          updating your old webpage with a new look and functionality. the
+          choices are versatile Assuming that you will goWhen you need your
+          company to have a new website or if you venture on updating your old
+          webpage with a new look and functionality.
+        </p>
+        <div class="blog-read">
+          <a class="btn home-read-more" href="">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="blog-card">
+        <div class="accordian-left-image home-blog-img">
+          <img src="images/cat-larg6.jpg" alt="" />
+        </div>
+        <h3>Getting to Another Level of Design</h3>
+        <small>09 November, 2018</small>
+        <p>
+          When you need your company to have a new website or if you venture on
+          updating your old webpage with a new look and functionality. the
+          choices are versatile Assuming that you will goWhen you need your
+          company to have a new website or if you venture on updating your old
+          webpage with a new look and functionality.
+        </p>
+        <div class="blog-read">
+          <a class="btn home-read-more" href="">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="blog-card">
+        <div class="accordian-left-image home-blog-img">
+          <img src="images/cat-larg5.jpg" alt="" />
+        </div>
+        <h3>Getting to Another Level of Design</h3>
+        <small>09 November, 2018</small>
+        <p>
+          When you need your company to have a new website or if you venture on
+          updating your old webpage with a new look and functionality. the
+          choices are versatile Assuming that you will goWhen you need your
+          company to have a new website or if you venture on updating your old
+          webpage with a new look and functionality.
+        </p>
+        <div class="blog-read">
+          <a class="btn home-read-more" href="">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid home-contact home-accordian-overlay py-5">
+  <div class="container">
+    <div class="home-h2 text-center mb-3 testimonial-heading">
+      <h2 class="home-headings text-center">Testimonial</h2>
+    </div>
+    <div class="row">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner p-5" id="home-testimonial-carousel">
+          <div class="carousel-item active">
+            <div
+              class="row text-center home-testimonial-carousel-item rounded py-4"
+            >
+              <div class="col-12 col-md-3">
+                <img
+                  src="images/testimonial-img.png"
+                  alt="website template image"
+                  class="home-testimonial-carousel-img"
+                />
+                <h3 class="font-14 semi-font text-white">Billy Richards</h3>
+                <h3 class="font-14 font-italic text-white mt-2">
+                  Chief Manager, Simba Co
+                </h3>
+              </div>
+              <div class="col-12 col-md-9 p-0 p-md-2">
+                <div
+                  class="home-testimonial-detail font-15 font-italic text-white p-4 position-relative"
+                >
+                  No matter what issue or questions pops up, you are always
+                  there to assist me. Thank you so much for your excellent
+                  assistance and great customer support through years.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="row text-center home-testimonial-carousel-item rounded py-4"
+            >
+              <div class="col-12 col-md-3">
+                <img
+                  src="images/testimonial-img.png"
+                  alt="website template image"
+                  class="home-testimonial-carousel-img"
+                />
+                <h3 class="font-14 semi-font text-white">Billy Richards</h3>
+                <h3 class="font-14 font-italic text-white mt-2">
+                  Chief Manager, Simba Co
+                </h3>
+              </div>
+              <div class="col-12 col-md-9 p-0 p-md-2">
+                <div
+                  class="home-testimonial-detail font-15 font-italic text-white p-4 position-relative"
+                >
+                  No matter what issue or questions pops up, you are always
+                  there to assist me. Thank you so much for your excellent
+                  assistance and great customer support through years.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="row text-center home-testimonial-carousel-item rounded py-4"
+            >
+              <div class="col-12 col-md-3">
+                <img
+                  src="images/testimonial-img.png"
+                  alt="website template image"
+                  class="home-testimonial-carousel-img"
+                />
+                <h3 class="font-14 semi-font text-white">Billy Richards</h3>
+                <h3 class="font-14 font-italic text-white mt-2">
+                  Chief Manager, Simba Co
+                </h3>
+              </div>
+              <div class="col-12 col-md-9 p-0 p-md-2">
+                <div
+                  class="home-testimonial-detail font-15 font-italic text-white p-4 position-relative"
+                >
+                  No matter what issue or questions pops up, you are always
+                  there to assist me. Thank you so much for your excellent
+                  assistance and great customer support through years.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
