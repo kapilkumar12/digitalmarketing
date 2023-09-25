@@ -47,20 +47,18 @@
                             <p class="mb-0"><span><i class="fa-solid fa-phone-volume"></i></span>
                                 Call Now
                             </p>
-                            <a href="tel:+01 1234567890" class="footer-pragraph-color">
+                            <a href="tel:+918750428267" class="footer-pragraph-color">
 
-                                +01 1234567890</a>
+                                +91-8750428267</a>
 
                         </li>
                         <li>
 
-                            <p class="mb-0"><span><i class="fa-regular fa-envelope"></i></i></span>
+                            <p class="mb-0"><span><i class="fa-regular fa-envelope"></i></span>
                                 Mail
                             </p>
-                            <a href="mailto: mail@domain.com" class="footer-pragraph-color">
-
-
-                                mail@domain.com</a>
+                            <a href="mailto:digitalmarketingservicecompani@gmail.com" class="footer-pragraph-color">
+digitalmarketingservicecompani@gmail.com</a>
                         </li>
                     </ul>
                 </div>
@@ -87,17 +85,12 @@
 </div>
 <div class="container-fluid copyright text-center text-white p-3">
     <ul class="nav footer-social-links justify-content-center just-center">
-        <li>
-            <a href="#" target="_blank"><i class="fa-brands fa-google"></i></a>
-        </li>
+
         <li>
             <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
         </li>
         <li>
             <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-        </li>
-        <li>
-            <a href="#" target="_blank"><i class="fab fa-pinterest-square"></i></a>
         </li>
         <li>
             <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
@@ -106,7 +99,7 @@
             <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
         </li>
     </ul>
-    <p class="mb-0">Copyright © Fables 2018. All rights reserved.</p>
+    <p class="mb-0">Copyright © digitalmarketingservicecompany 2023. All rights reserved.</p>
 </div>
 </body>
 

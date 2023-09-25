@@ -20,11 +20,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/animate.css">
-    <script src="js/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
+
+
     <link rel="stylesheet" href="css/style-main.css">
 
 
@@ -36,10 +33,11 @@
     <div class="conatiner-fluid bg-dark sub-top-header">
         <div class="sub-header">
             <div class="header-contact-details">
-                <a href="tel:+01 1234567890" class="footer-pragraph-color"><i class="fa-solid fa-phone-volume"></i> +01
-                    1234567890</a>
-                <a href="mailto: mail@domain.com" class="footer-pragraph-color"><i class="fa-regular fa-envelope"></i>
-                    mail@domain.com</a>
+                <a href="tel:+918750428267" class="footer-pragraph-color"><i class="fa-solid fa-phone-volume"></i>
+                    +91-087504 28267</a>
+                <a href="mailto:digitalmarketingservicecompani@gmail.com" class="footer-pragraph-color"><i
+                        class="fa-regular fa-envelope"></i>
+                    digitalmarketingservicecompani@gmail.com </a>
             </div>
             <div>
                 <ul class="nav footer-social-links justify-content-center just-center">

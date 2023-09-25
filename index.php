@@ -1,8 +1,9 @@
-<link rel="stylesheet" href="css/home.css" />
+<!-- <link rel="stylesheet" href="css/home.css" /> -->
 
 <?php
 $title= 'Digital Marketing Servive Company';
  $description = 'Digital Marketing Servive Company';
+ 
 include "header.php"
 ?>
 

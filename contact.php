@@ -1,4 +1,6 @@
 <?php
+$title = 'Digital Marketing Servive Company';
+$description = 'Digital Marketing Servive Company';
 
 include "header.php"
 ?>
@@ -13,11 +15,7 @@ include "header.php"
 <div class="container">
   <div class="row m-3">
     <div class="col-lg-4">
-      <div
-        class="contact-paragraph text-center wow slideInLeft"
-        data-wow-duration="2s"
-        data-wow-delay="2s"
-      >
+      <div class="contact-paragraph text-center">
         <img src="images/contact-location.webp" alt="contact" />
         <h3>Address Information</h3>
         <p>11009 new delhi</p>
@@ -25,15 +23,11 @@ include "header.php"
     </div>
 
     <div class="col-lg-4">
-      <div
-        class="contact-paragraph text-center wow slideInLeft"
-        data-wow-duration="2s"
-        data-wow-delay="5s"
-      >
+      <div class="contact-paragraph text-center">
         <img src="images/contact-phone.webp" alt="contact" />
         <h3>Contact Details</h3>
-        <p>+91 9876543210</p>
-        <p>digitalmarketing@gmail.com</p>
+        <p>+91 087504 28267</p>
+        <p>digitalmarketingservicecompani@gmail.com</p>
       </div>
     </div>
 
@@ -73,11 +67,7 @@ include "header.php"
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <form
-          id="contactForm"
-          action="https://formspree.io/f/myyqjvkk"
-          method="POST"
-        >
+        <form id="captchaForm">
           <div class="mb-3">
             <label for="name" class="form-label contact-form-label"
               >Name<span>*</span></label
@@ -160,22 +150,26 @@ include "header.php"
               placeholder="message"
             ></textarea>
 
-            <!-- <div class="captcha">
-              <div id="captchaValue"></div>
-              <input
-                type="text"
-                name="captcha_code"
-                class="form-control"
-                id="captcha_code"
-                placeholder=""
-              />
-            </div> -->
-            <div class="contact-btan">
-              <button class="button-62" role="button" type="submit" id="submit">
-                Submit
-              </button>
-            </div>
+            <p class="contact-form-label mt-2">
+              Captcha:
+              <span id="captchaEquation"></span>
+            </p>
+            <input
+              type="text"
+              id="userAnswer"
+              name="userAnswer"
+              placeholder="Enter the answer"
+              class="form-control contact-form-control"
+              required
+            />
+            <input type="hidden" id="hiddenField" name="dataToPost" value="" />
           </div>
+          <div class="contact-btan">
+            <button class="button-62" role="button" type="submit" id="submit">
+              Submit
+            </button>
+          </div>
+          <p id="resultMessage"></p>
         </form>
       </div>
 
@@ -200,76 +194,8 @@ include "header.php"
   ></iframe>
 </div>
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="./js/captcha.js"></script>
 
-<script>
-  setTimeout(() => {
-    window.onbeforeunload = () => {
-      for (const form of document.getElementsByTagName("form")) {
-        form.reset();
-      }
-    };
-  }, 5000);
-
-  //   var allValue = [
-  //     "A",
-  //     "B",
-  //     "C",
-  //     "D",
-  //     "E",
-  //     "F",
-  //     "G",
-  //     "H",
-  //     "I",
-  //     "J",
-  //     "K",
-  //     "L",
-  //     "M",
-  //     "N",
-  //     "O",
-  //     "P",
-  //     "Q",
-  //     "R",
-  //     "S",
-  //     "T",
-  //     "U",
-  //     "V",
-  //     "W",
-  //     "X",
-  //     "Y",
-  //     "Z",
-  //     "1",
-  //     "2",
-  //     "3",
-  //     "4",
-  //     "5",
-  //     "6",
-  //     "7",
-  //     "8",
-  //     "9",
-  //     "0",
-  //   ];
-
-  //   function newCaptcha() {
-  //     var cVal1 = allValue[Math.floor(Math.random() * allValue.length)];
-  //     var cVal2 = allValue[Math.floor(Math.random() * allValue.length)];
-  //     var cVal3 = allValue[Math.floor(Math.random() * allValue.length)];
-  //     var cVal4 = allValue[Math.floor(Math.random() * allValue.length)];
-  //     var cVal5 = allValue[Math.floor(Math.random() * allValue.length)];
-  //     var cVal6 = allValue[Math.floor(Math.random() * allValue.length)];
-  //     var cValue = cVal1 + cVal2 + cVal3 + cVal4 + cVal5 + cVal6;
-  //     captchaValue.innerHTML = cValue;
-  //   }
-  //   newCaptcha();
-
-  //   setTimeout(() => {
-  //     document.querySelector("#submit").addEventListener("click", newCaptcha);
-  //     thisValue = "";
-  //     captcha_code.addEventListener("change", function () {
-  //       thisValue = captcha_code.value;
-  //     });
-  //   }, "5000");
-</script>
 <?php
 
 include "footer.php"
